@@ -1,0 +1,280 @@
+body {
+	text-align:center;
+	margin:0;
+	padding:0;
+	font-family:arial;
+
+
+
+}
+
+.loader{
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+}
+
+
+.text-center h1{
+
+
+
+
+	margin:0;
+	padding:0;
+	text-transform: uppercase;
+	font-size:4.5em;
+	color:rgba(255, 255, 255, .1);
+	background-image:url("../images/sharks.png");
+	background-repeat: repeat-x;
+  -webkit-background-clip:text;
+	animation: animate 10s linear infinite;
+	width:100%;
+	display: inline-block	;
+
+
+
+}
+
+.row1{
+
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.row{
+
+	background-color:#669dbc;
+	border-radius: 5px;
+	bottom:1px;
+	/*background-image: url("https://media.giphy.com/media/3o7TKHijxCRJS3KOHe/giphy.gif");*/
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top:5px;
+	padding-bottom:5px;
+
+
+
+
+}
+
+#gear h1{
+	color:#C0C0C0;
+	text-shadow: 2px 2px 4px #000000;
+
+
+
+}
+
+
+@keyframes animate
+{
+	0%
+	{
+		background-position: left 0px top 80px;
+	}
+	40%
+	{
+		background-position: left 900px top -70px;
+	}
+}
+
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+
+}
+
+h4{
+	font-family: 'Signika Negative', sans-serif;
+}
+
+.tshirt {
+	margin:20px 0;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+*/
+.row3{
+	text-align: center;
+	margin:0 auto;
+	clear: both;
+  position: relative;
+	width: 100%;
+ 	text-align: center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.footer{
+	width:100vw;
+	height:100px;
+	bottom:0;
+	margin:0 auto;
+	top:1%;
+	text-align: center;
+	margin:0;
+	clear: both;
+  position: relative;
+	width: 98%;
+ 	text-align: center;
+}
+
+.footer li{
+	list-style:none;
+	display:inline-block;
+
+}
+
+.footer a{
+	display:block;
+}
+
+.footer #fb{
+	margin: 8px;
+	width: auto;
+	opacity:0.5;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	transition:opacity 0.5s;
+	height: 50px;
+}
+
+.footer #tw{
+	margin: 8px;
+	width: auto;
+	opacity:0.5;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	transition:opacity 0.5s;
+	height: 50px;
+}
+
+.footer #ig{
+	margin: 8px;
+	width: auto;
+	opacity:0.5;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	transition:opacity 0.5s;
+	height: 50px;
+}
+
+
+.footer #ma{
+	margin: 8px;
+	width: auto;
+	opacity:0.5;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	transition:opacity 0.5s;
+	height: 50px;
+}
+.footer #fb:hover {
+	/*background:url("img/git2.png");*/
+	opacity:1;
+}
+
+.footer #ma:hover {
+	/*background:url("img/git2.png");*/
+	opacity:1;
+}
+
+.footer #ig:hover {
+	/*background:url("img/git2.png");*/
+	opacity:1;
+}
+
+
+.footer #tw:hover {
+	/*background:url("img/git2.png");*/
+	opacity:1;
+}
